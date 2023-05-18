@@ -1,0 +1,114 @@
+.dashboardPage{
+  background-color: #B3C890;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.navDashboard{
+  display: flex;
+  align-items: baseline;
+  background-color: #73A9AD;
+  width: 100%;
+  height: 80px;
+  gap: 50px;
+}
+.navDashboardContent{
+  margin-left: 2rem;
+}
+.navDashboardSideMenu{
+
+}
+.buttonNav{
+  color: #DBDFAA;
+}
+.dashboardContainer{
+  display: flex;
+}
+.dashboardContentLeft{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+.accountUser{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.accountUserImg{
+  font-size: 8em;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.accountUserName{
+  background-color: #73A9AD;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+}
+.menuDashboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: white;
+}
+.menuDashboardTittle{
+  background-color: #73A9AD;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+.menuDashboardOption{
+
+}
+.statusUser{
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.dashboardContentRight{
+  margin-top: 4rem;
+  margin-left: 2rem;
+  background-color: white;
+  width: 80%;
+}
+.dashboardContentTittle{
+  padding: 0;
+  margin: 0;
+  background-color: #73A9AD;
+  width: 98.8%;
+  padding-left: 1rem;
+}
+.dashboardContentExt{
+  display: flex;
+  gap:50px;
+}
+.dashboardContentExtTittle{
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+}
+.buttonItem{
+  position: absolute;
+  right: 1.8rem;
+  height: 50px;
+}
+.tableDashboard{
+  margin-top: 1rem;
+}
